@@ -12,6 +12,7 @@
 		2E8BA6C72043A4B90098BA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BA6C52043A4B90098BA0F /* Main.storyboard */; };
 		2E8BA6C92043A4B90098BA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BA6C82043A4B90098BA0F /* Assets.xcassets */; };
 		2E8BA6CC2043A4B90098BA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BA6CA2043A4B90098BA0F /* LaunchScreen.storyboard */; };
+		2E8BA6D42043B6210098BA0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BA6D32043B6210098BA0F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E8BA6C82043A4B90098BA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E8BA6CB2043A4B90098BA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E8BA6CD2043A4B90098BA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8BA6D32043B6210098BA0F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2E8BA6C12043A4B90098BA0F /* AppDelegate.swift */,
 				2E8BA6C32043A4B90098BA0F /* ViewController.swift */,
+				2E8BA6D32043B6210098BA0F /* DetailViewController.swift */,
 				2E8BA6C52043A4B90098BA0F /* Main.storyboard */,
 				2E8BA6C82043A4B90098BA0F /* Assets.xcassets */,
 				2E8BA6CA2043A4B90098BA0F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8BA6D42043B6210098BA0F /* DetailViewController.swift in Sources */,
 				2E8BA6C42043A4B90098BA0F /* ViewController.swift in Sources */,
 				2E8BA6C22043A4B90098BA0F /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYDEK948Y3;
 				INFOPLIST_FILE = "To-Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYDEK948Y3;
 				INFOPLIST_FILE = "To-Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
